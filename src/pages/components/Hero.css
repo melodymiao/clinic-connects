@@ -1,13 +1,15 @@
 .hero-div {
-    height: 500px;
-    background-color: #FFFAE1;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    margin-bottom: 35px;
+  background-color: #fffae1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 35px;
+
+  height: 90vh;
+  object-fit: cover;
 }
 
 .page-summary {
-    margin-bottom: 82px;
+  margin-bottom: 82px;
 }

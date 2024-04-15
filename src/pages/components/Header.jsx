@@ -7,7 +7,7 @@ const Header = ({ currentPage }) => {
   return (
     <div className="header-body">
       <div id="header">
-        <a href="#" className="flex-item"><h1>m!</h1></a>
+        <a href="#" className="flex-item"><h1>MEL!</h1></a>
         <ul className="navbar flex-item">
           <li className="nav-item">
             <Link to="/sample" className={`nav-link ${currentPage === "sample" ? "bold" : ""}`}>Sample Page</Link>
@@ -16,7 +16,7 @@ const Header = ({ currentPage }) => {
             <Link to="/" className={`nav-link ${currentPage === "home" ? "bold" : ""}`}>Home</Link>
           </li>
           <li className="nav-item">
-            <Link to="/about" className={`nav-link ${currentPage === "about" ? "bold" : ""}`}>About</Link>
+            <Link to="/about-us" className={`nav-link ${currentPage === "about-us" ? "bold" : ""}`}>About</Link>
           </li>
           <li className="nav-item">
             <Link to="/connections" className={`nav-link ${currentPage === "connections" ? "bold" : ""}`}>Connections</Link>
