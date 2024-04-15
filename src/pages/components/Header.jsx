@@ -3,12 +3,33 @@ import { Link } from 'react-router-dom';
 
 import './Header.css';
 
-const Header = () => {
+const Header = ({ currentPage }) => {
   return (
-    <>
-    <h1>header</h1>
-    <Link to="/about-us">link to about us</Link>
-    </>
+    <div className="header-body">
+      <div id="header">
+        <a href="#" className="flex-item"><h1>m!</h1></a>
+        <ul className="navbar flex-item">
+          <li className="nav-item">
+            <Link to="/sample" className={`nav-link ${currentPage === "sample" ? "bold" : ""}`}>Sample Page</Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/" className={`nav-link ${currentPage === "home" ? "bold" : ""}`}>Home</Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/about" className={`nav-link ${currentPage === "about" ? "bold" : ""}`}>About</Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/connections" className={`nav-link ${currentPage === "connections" ? "bold" : ""}`}>Connections</Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/sectors" className={`nav-link ${currentPage === "sectors" ? "bold" : ""}`}>Sectors</Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/contact-us" className={`nav-link ${currentPage === "contact-us" ? "bold" : ""}`}>Contact Us</Link>
+          </li>
+        </ul>
+      </div>
+    </div>
   );
 }
 

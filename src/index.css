@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* h1 class for page titles */
+.page-title {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 64px;
+    letter-spacing: -2px;
+    color: black;
+    margin-bottom: 8px;
+}
+
+/* p class for page summaries */
+.page-summary {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 24px;
+    letter-spacing: -0.5px;
+    color: #DD5558;
+    margin-bottom: 16px;
+}
+
+/* h2 class for section titles */
+.section-title {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 48px;
+    letter-spacing: -2px;
+    color: black;
+    margin-bottom: 16px;
+}
+
+/* h3 class for section subtitles */
+.section-subtitle {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 32px;
+    letter-spacing: -2px;
+    color: black;
+    margin-bottom: 16px;
+}
+
+/* p class for paragraph texts */
+.paragraph-text {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+/* div class for sections */
+.section {
+    padding: 35px 70px;
+}
+
+/* div class to center sections */
+.centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

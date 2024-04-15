@@ -1,0 +1,50 @@
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1400px;
+    padding: 20px 0;
+}
+
+#header a {
+    text-decoration: none;
+}
+
+#header h1 {
+    color: #F66047;
+    font-size: 38px;
+    margin-left: 72px;
+}
+
+.navbar {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    letter-spacing: -0.5px;
+    color: black;
+    margin-right: 32px;
+}
+
+.navbar .nav-item {
+    float: left;
+    display: block;
+    text-align: center;
+    margin: 16px 0 16px 40px;
+}
+
+.navbar .nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar .nav-link:hover {
+    color: #F66047;
+    transition-delay: 0.2s; /* Add delay */
+}
+
+.bold {
+    font-weight: bold;
+}

@@ -1,4 +1,5 @@
 import { Routes, Route } from "react-router-dom";
+import Sample from './pages/SamplePage'
 import Home from './pages/Home'
 import AboutUs from './pages/AboutUs'
 import Connections from './pages/Connections'
@@ -14,6 +15,9 @@ function App() {
   return (
     <>
       <Routes>
+        {/* Sample Page */}
+        <Route path="/sample" element={<Sample />} />
+
         {/* Home Page */}
         <Route path="/" element={<Home />} />
 

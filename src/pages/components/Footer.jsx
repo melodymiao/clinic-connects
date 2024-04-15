@@ -6,8 +6,10 @@ import './Footer.css';
 const Footer = () => {
   return (
     <>
-    <h1>footer</h1>
-    <Link to="/about-us">link to about us</Link>
+    <div className='footer-body'>
+      <h1 className='filler-text'>footer body</h1>
+      <Link to="/about-us">link to about us</Link>
+    </div>
     </>
   );
 }
