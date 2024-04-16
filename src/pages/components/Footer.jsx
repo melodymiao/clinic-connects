@@ -30,10 +30,12 @@ const Footer = ({ currentPage }) => {
           <li className="nav-item">
             <Link to="/sectors" className={`nav-link ${currentPage === "sectors" ? "bold" : ""}`}>Sectors</Link>
           </li>
+        </ul>
+        <ul className="links">
           <li className="nav-item">
             <Link to="/contact-us" className={`nav-link ${currentPage === "contact-us" ? "bold" : ""}`}>Contact Us</Link>
           </li>
-          <a className='links' href="mailto:clinicconnects@berkeley.edu">clinicconnects@berkeley.edu</a>
+          <li className="nav-item"><a className='links' href="mailto:clinicconnects@berkeley.edu">clinicconnects@berkeley.edu</a></li>
         </ul>
       </div>
     </div>
