@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logoImage from '../../assets/logo.jpg';
-import textImage from '../../assets/clinicconnects.jpg'
+import logoImage from '../../assets/logo.png';
+import textImage from '../../assets/clinicconnects.png'
 
 import './Footer.css';
 
