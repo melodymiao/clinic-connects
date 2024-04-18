@@ -7,6 +7,7 @@ const Connections = () => {
   return (
     <>
       <Header />
+      <Hero title="Page Title" summary="this is the summary of this page" />
       <div>
         <h1>Connections Page</h1>
       </div>

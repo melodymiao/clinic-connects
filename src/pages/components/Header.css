@@ -3,48 +3,46 @@
   justify-content: center;
   align-items: center;
   justify-content: space-between;
-  max-width: 1400px;
-  padding: 20px 0;
+  padding: 20px 70px;
 }
+
 
 #header a {
-  text-decoration: none;
+text-decoration: none;
 }
 
-#header h1 {
-  color: #f66047;
-  font-size: 38px;
-  margin-left: 72px;
-}
 
 .navbar {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16px;
-  letter-spacing: -0.5px;
-  color: black;
-  margin-right: 32px;
+font-family: "Montserrat", sans-serif;
+font-optical-sizing: auto;
+font-weight: 400;
+font-style: normal;
+font-size: 16px;
+letter-spacing: -0.5px;
+color: black;
 }
+
 
 .navbar .nav-item {
-  float: left;
-  display: block;
-  text-align: center;
-  margin: 16px 0 16px 40px;
+float: left;
+display: block;
+text-align: center;
+margin: 16px 0 16px 40px;
 }
+
 
 .navbar .nav-link {
-  text-decoration: none;
-  color: black;
+text-decoration: none;
+color: black;
 }
+
 
 .navbar .nav-link:hover {
-  color: #f66047;
-  transition: color 0.5s ease;
+color: #f66047;
+transition: color 0.5s ease;
 }
 
+
 .bold {
-  font-weight: bold;
+font-weight: bold;
 }
