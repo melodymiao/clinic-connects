@@ -6,8 +6,15 @@ import Footer from './components/Footer'
 const Home = () => {
   return (
     <>
-    <Header />
-    <h1 className='page-title'>Home Page</h1>
+    <Header currentPage="home" />
+    <div className="section">
+      <h2 className="section-title">Section Title</h2>
+      <p className="paragraph-text">Be sure to wrap each of your sections in a div with the class "section"!</p>
+      <p className="paragraph-text">
+          This is a paragraph text. This is a paragraph text. This is a paragraph text. This is a paragraph text. This is a paragraph text.
+          This is a paragraph text. This is a paragraph text. This is a paragraph text. This is a paragraph text. This is a paragraph text.
+      </p>
+    </div>
     <Footer />
     </>
   );
