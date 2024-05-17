@@ -1,0 +1,92 @@
+.everything {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.connections-text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    gap: 90px;
+    width: 550px;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.imgs {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 80px;
+}
+
+.connections-img {
+    width: 255px;
+    height: 240px;
+
+}
+
+
+.sector {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(255, 250, 225);
+    font-size: 35px;
+    padding-bottom: 40px;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+
+
+.explore{
+    font-size: 20px;
+    color: rgb(221, 85, 88);
+    align-self: center;
+    margin-top: -15px;
+    width: 1000px;
+    
+}
+
+.sector img {
+    display: block; 
+    margin: 0 auto; 
+    width: 350px;
+}
+
+.connections-h2 {
+    padding-bottom:10px;
+}
+
+.line1 {
+    position: absolute;
+    top: 850px;
+    left: 300px;
+    background-color: rgb(221, 85, 88);
+    width: 800px;
+    height: 3px;
+}
+
+.line2 {
+    position: absolute;
+    top: 1150px;
+    left: 300px;
+    background-color:rgb(221, 85, 88);
+    width: 800px;
+    height: 3px;
+}
+.con {
+    padding-top: 35px;
+    width: 200px;
+    height: 200px;
+    margin-left: 30px;
+   
+
+}
+
+.img1{
+    margin-bottom: 10px;
+}

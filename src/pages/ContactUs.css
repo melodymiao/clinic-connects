@@ -1,0 +1,47 @@
+.contact-div {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    margin: 100px;
+}
+
+.contact-child{
+    width: 500px;
+}
+
+.for-title {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 32px;
+    letter-spacing: -2px;
+    color: black;
+    margin-bottom: 16px;
+}
+
+.contact-paragraph {
+    font-family: "Inter", sans-serif;
+    font-size: 1.2vw;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+.contact-link {
+    font-family: "Inter", sans-serif;
+    font-size: 1.2vw;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    line-height: 24px;
+    margin-bottom: 16px;
+    color: #DD5558;
+}
+
+.contact-pic {
+    width: 100%;
+    margin-bottom: 40px;
+}

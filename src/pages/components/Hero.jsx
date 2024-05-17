@@ -1,5 +1,4 @@
 import React from 'react';
-import SamplePageHero from '../../assets/sample page hero.png'
 import "./Hero.css";
 
 const Hero = (props) => {
