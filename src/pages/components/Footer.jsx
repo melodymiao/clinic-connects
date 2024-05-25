@@ -15,9 +15,9 @@ const Footer = ({ currentPage }) => {
       </div>
       <div className='linkbox'>
         <ul className="links">
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <Link to="/sample" className={`nav-link ${currentPage === "sample" ? "bold" : ""}`}>Sample Page</Link>
-          </li>
+          </li> */}
           <li className="nav-item">
             <Link to="/" className={`nav-link ${currentPage === "home" ? "bold" : ""}`}>Home</Link>
           </li>

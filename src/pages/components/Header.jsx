@@ -9,9 +9,9 @@ const Header = ({ currentPage }) => {
       <div id="header">
         <a href="#" className="flex-item"><img className='clinic-connects-logo' src={ClinicConnectsLogo} alt="clinicconnects" /></a>
         <ul className="navbar flex-item">
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <Link to="/sample" className={`nav-link ${currentPage === "sample" ? "bold" : ""}`}>Sample Page</Link>
-          </li>
+          </li> */}
           <li className="nav-item">
             <Link to="/" className={`nav-link ${currentPage === "home" ? "bold" : ""}`}>Home</Link>
           </li>

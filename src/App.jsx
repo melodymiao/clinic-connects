@@ -16,7 +16,7 @@ function App() {
     <>
       <Routes>
         {/* Sample Page */}
-        <Route path="/sample" element={<Sample />} />
+        {/* <Route path="/sample" element={<Sample />} /> */}
 
         {/* Home Page */}
         <Route path="/" element={<Home />} />
